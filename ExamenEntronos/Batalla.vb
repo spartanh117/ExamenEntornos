@@ -1,19 +1,18 @@
 ﻿Public Class FormBatalla
-    Dim control = True
 
-    Private Sub batalla_keyUp(sender As Object, e As KeyEventArgs) Handles MyBase.KeyUp
-        control = False
+    Private Function getVidaJugador()
+        Return lblVidaJugador.Text
+    End Function
+    Private Sub setVidaJugador(ByVal vida As Integer)
+        lblVidaJugador.Text = vida
     End Sub
 
-    Private Sub batalla_keyPress(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
-        control = True
-        If e.KeyData Like Keys.A Then
-            moverIzquierda()
-        ElseIf e.KeyData Like Keys.D Then
-            moverDerecha()
-        End If
+    Private Function getVidaEnemigo()
+        Return lblVidaEnemigo.Text
+    End Function
+    Private Sub setVidaEnemigo(ByVal vida As Integer)
+        lblVidaEnemigo.Text = vida
     End Sub
-
     Private Sub moverIzquierda()
 
         pbJugador.Image = My.Resources.movimiento2
@@ -29,9 +28,9 @@
     End Sub
     Private Sub ataque1()
         pbJugador.Image = My.Resources.ataque2
-        Dim vida As Integer = lblVidaEnemigo.Text
+        Dim vida As Integer = getVidaEnemigo()
         vida = vida - 100
-        lblVidaEnemigo.Text = vida
+        setVidaEnemigo(vida)
     End Sub
 
     Private Sub ataque2()
@@ -39,9 +38,9 @@
         Dim rango1 As Integer = pbenemigo.Location.X - 95
         Dim rango2 As Integer = pbenemigo.Location.X + 95
         If pbJugador.Location.X > rango1 And pbJugador.Location.X < rango2 Then
-            Dim vida As Integer = lblVidaEnemigo.Text
+            Dim vida As Integer = getVidaEnemigo()
             vida = vida - 200
-            lblVidaEnemigo.Text = vida
+            setVidaEnemigo(vida)
         End If
     End Sub
 
@@ -70,22 +69,19 @@
         Dim rango1 As Integer = pbJugador.Location.X - 95
         Dim rango2 As Integer = pbJugador.Location.X + 95
         If pbenemigo.Location.X > rango1 And pbenemigo.Location.X < rango2 Then
-            Dim vida As Integer = lblVidaJugador.Text
+            Dim vida As Integer = getVidaJugador()
             vida = vida - 100
-            lblVidaJugador.Text = vida
+            setVidaJugador(vida)
         End If
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        Dim vidaEnemigo As Integer = lblVidaEnemigo.Text
-        Dim vidaJugador As Integer = lblVidaJugador.Text
-
-        If vidaEnemigo <= 0 Then
+        If getVidaEnemigo() <= 0 Then
             Timer.Stop()
             Timer2.Stop()
             MsgBox("has ganado")
             Me.Close()
-        ElseIf vidaJugador <= 0 Then
+        ElseIf getVidaJugador() <= 0 Then
             Timer.Stop()
             Timer2.Stop()
             MsgBox("has perdido")
