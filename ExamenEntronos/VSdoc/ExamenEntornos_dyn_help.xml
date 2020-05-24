@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="ExamenEntornos" Title="ExamenEntornos Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.FormBatalla.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000001_overloads--.html" LinkGroup="ExamenEntornos">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.MenuInicio.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000003_overloads--.html" LinkGroup="ExamenEntornos">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.MenuPausa.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000005_overloads--.html" LinkGroup="ExamenEntornos">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntornos Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000008.html" LinkGroup="ExamenEntornos">ExamenEntornos Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_000000000000000A.html" LinkGroup="ExamenEntornos">ExamenEntronos Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.FormBatalla" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000000.html" LinkGroup="ExamenEntornos">FormBatalla Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.MenuInicio" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000002.html" LinkGroup="ExamenEntornos">MenuInicio Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ExamenEntronos.MenuPausa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ExamenEntornos.chm::/topic_0000000000000004.html" LinkGroup="ExamenEntornos">MenuPausa Class</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
