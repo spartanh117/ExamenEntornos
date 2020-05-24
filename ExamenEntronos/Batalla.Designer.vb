@@ -33,6 +33,8 @@ Partial Class FormBatalla
         Me.lblVidaJugador = New System.Windows.Forms.Label()
         Me.lblVidaEnemigo = New System.Windows.Forms.Label()
         Me.Timer = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.btnPausa = New System.Windows.Forms.Button()
         CType(Me.pbenemigo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbJugador, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -115,12 +117,28 @@ Partial Class FormBatalla
         'Timer
         '
         Me.Timer.Enabled = True
+        Me.Timer.Interval = 300
+        '
+        'Timer2
+        '
+        Me.Timer2.Enabled = True
+        Me.Timer2.Interval = 1
+        '
+        'btnPausa
+        '
+        Me.btnPausa.Location = New System.Drawing.Point(630, 12)
+        Me.btnPausa.Name = "btnPausa"
+        Me.btnPausa.Size = New System.Drawing.Size(96, 26)
+        Me.btnPausa.TabIndex = 8
+        Me.btnPausa.Text = "pausa"
+        Me.btnPausa.UseVisualStyleBackColor = True
         '
         'FormBatalla
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnPausa)
         Me.Controls.Add(Me.lblVidaEnemigo)
         Me.Controls.Add(Me.lblVidaJugador)
         Me.Controls.Add(Me.btnAtaque2)
@@ -146,4 +164,6 @@ Partial Class FormBatalla
     Friend WithEvents lblVidaJugador As Label
     Friend WithEvents lblVidaEnemigo As Label
     Friend WithEvents Timer As Timer
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents btnPausa As Button
 End Class
