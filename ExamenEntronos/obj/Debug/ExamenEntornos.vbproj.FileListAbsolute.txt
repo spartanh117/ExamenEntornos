@@ -1,0 +1,14 @@
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\bin\Debug\ExamenEntronos.exe.config
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\bin\Debug\ExamenEntronos.exe
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\bin\Debug\ExamenEntronos.pdb
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\bin\Debug\ExamenEntronos.xml
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntornos.vbprojAssemblyReference.cache
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.FormBatalla.resources
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.MenuInicio.resources
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.MenuPausa.resources
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.Resources.resources
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntornos.vbproj.GenerateResource.cache
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntornos.vbproj.CoreCompileInputs.cache
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.exe
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.xml
+C:\Users\Manul\OneDrive\Documentos\examenEntornos\ExamenEntronos\obj\Debug\ExamenEntronos.pdb

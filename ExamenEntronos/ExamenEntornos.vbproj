@@ -96,6 +96,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -120,9 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\menuInicio.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ataque2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ataque3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movimiento.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movimiento2.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
